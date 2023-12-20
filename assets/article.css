@@ -1,0 +1,25 @@
+.article {
+  background-color: lightyellow;
+  margin: 1em 1em;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 50px;
+}
+body {
+  color: rgb(90, 12, 12);
+}
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+p {
+  font-size: 20px;
+
+  line-height: 30px;
+}
+img {
+  display: flex;
+  justify-content: center;
+}
