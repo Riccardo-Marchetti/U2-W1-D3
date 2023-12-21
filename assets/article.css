@@ -1,25 +1,65 @@
+@media screen and (min-width: 600px) {
+}
 .article {
   background-color: lightyellow;
   margin: 1em 1em;
-  height: 950px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
   border-radius: 50px;
 }
 body {
   color: rgb(90, 12, 12);
 }
 h1 {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
+  padding-left: 62px;
 }
 p {
   font-size: 20px;
 
   line-height: 30px;
+  padding-left: 62px;
+  padding-right: 62px;
 }
-img {
+
+.immagine {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .article {
+    background-color: lightyellow;
+    height: 600px;
+    margin: 3em 5em;
+    width: 100%;
+    display: flex;
+
+    border-radius: 50px;
+  }
+  body {
+    color: rgb(90, 12, 12);
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 20px;
+
+    line-height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+  .immagine {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 300px;
+    height: 300px;
+  }
 }

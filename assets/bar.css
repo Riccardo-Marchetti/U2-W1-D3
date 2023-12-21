@@ -35,7 +35,7 @@ nav form {
 nav img {
   border-radius: 10px;
 }
-@media screen and (min-width: 576px) {
+
   button {
     background-color: rgba(236, 221, 0, 0.726);
     width: 100px;
